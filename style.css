@@ -1,0 +1,17 @@
+#Title{
+font-size: 50px;
+text-align: center;
+}
+
+canvas{
+    border: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+    animation-name: Animae;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Animae{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px rgb(0, 247, 255);}
+}
